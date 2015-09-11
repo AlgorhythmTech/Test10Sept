@@ -1,0 +1,14 @@
+ExitCode=0
+TotalTimeTaken=6.985
+TotalFiles=69
+TotalFolders=77
+TotalJavaFiles=16
+TotalJsFiles=11
+TotalJsonFiles=2
+TotalCssFiles=7
+TotalXmlFiles=7
+TotalPropertiesFiles=1
+Fri Sep 11 11:10:54 UTC 2015 : Code Factory Process Started for instructions newdemoScheduler.cf
+Fri Sep 11 11:11:07 UTC 2015 : Code Factory : Total Files created : 69 | Total Time Taken : 6.985 in seconds
+Fri Sep 11 11:11:07 UTC 2015 : Code Factory : Process Completed Blue Print instructions
+Fri Sep 11 11:11:07 UTC 2015 : Code Factory : Exited with the code 0

@@ -1,0 +1,15 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-09-11 11:10:56
+ development mode --enabled true 
+buzzorproject --topLevelPackage newdemo --isRuleEngine true --projectName newdemoScheduler --sourceCodeLocation /home/srikrishna/applifire/appConfigTemplate/appSourceCode/ --tomcatDeployLocation "" --tomcatAbsolutePath /Softwares/tomcat/webapps ---userName root --password root --schema jdbc:mysql://localhost:3306/information_schema --solrhome /home/srikrishna/applifire/customers/ba9dced8-453e-49a3-b627-d497a1f91b17/user/18D01ABF-F632-496A-B379-FC50EDEAB8C0/LJOY8TGFKDNIK6QYFRRJQ/solr-4.9.0 --isSpringBatch true
+entityManagerFactoryBean add property --name packagesToScan --value newdemo.app,com.athena,com.spartan
+Persistent change persistentUnitName --name newdemoScheduler
+Persistent add property --name eclipselink.dialect --value org.eclipse.persistence.platform.database.MySQLPlatform
+Persistent add property --name javax.persistence.jdbc.url --value jdbc:mysql://localhost:3306/newdemo
+Persistent add property --name javax.persistence.jdbc.user --value newdemo
+Persistent add property --name javax.persistence.jdbc.password --value newdemo
+Persistent add property --name javax.persistence.jdbc.driver --value com.mysql.jdbc.Driver
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-09-11 11:11:06
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-09-11 11:11:06
+// script --file newdemoScheduler.cf
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-09-11 11:11:06

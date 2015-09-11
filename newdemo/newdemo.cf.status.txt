@@ -1,0 +1,14 @@
+ExitCode=0
+TotalTimeTaken=73.843
+TotalFiles=8520
+TotalFolders=4370
+TotalJavaFiles=208
+TotalJsFiles=2224
+TotalJsonFiles=77
+TotalCssFiles=571
+TotalXmlFiles=253
+TotalPropertiesFiles=60
+Fri Sep 11 11:12:21 UTC 2015 : Code Factory Process Started for instructions newdemo.cf
+Fri Sep 11 11:13:47 UTC 2015 : Code Factory : Total Files created : 8520 | Total Time Taken : 73.843 in seconds
+Fri Sep 11 11:13:45 UTC 2015 : Code Factory : Process Completed Blue Print instructions
+Fri Sep 11 11:13:47 UTC 2015 : Code Factory : Exited with the code 0

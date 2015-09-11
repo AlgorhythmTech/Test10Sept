@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+
+	<persistence-unit name="newdemo" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<jar-file>lib/spartan-healthmeter-1.0.jar</jar-file>
+		<jar-file>lib/spartan-shield-1.0.jar</jar-file>
+		<jar-file>lib/spartan-sprinkler-1.0.jar</jar-file>
+
+		<jar-file>lib/athena-query-1.0.jar</jar-file>
+		<jar-file>lib/athena-report-1.0.jar</jar-file>
+		<jar-file>lib/athena-cloud-1.0.jar</jar-file>
+		<!-- <jar-file>lib/athena-scheduler-1.0.jar</jar-file> -->
+
+		<jar-file>lib/athena-config-1.0.jar</jar-file>
+		<jar-file>lib/athena-core-1.0.jar</jar-file>
+		<jar-file>lib/athena-framework-1.0.jar</jar-file>
+		<jar-file>lib/athena-rule-engine-1.0.jar</jar-file>
+		<jar-file>lib/athena-search-engine-1.0.jar</jar-file>
+		<jar-file>lib/athena-data-endpoint-orchestration-1.0.jar</jar-file>
+		<properties>
+			<property name="eclipselink.session.customizer" value="com.athena.config.server.uuidGenerator.UUIDGenerator"/>
+			<property name="eclipselink.ddl-generation" value="none"/>
+			<property name="eclipselink.logging.level" value="FINEST"/>
+			<property name="eclipselink.weaving" value="false"/>
+			<property name="eclipselink.jdbc.allow-native-sql-queries" value="true"/>
+			<property name="eclipselink.deploy-on-startup" value="true"/>
+			
+			<property name="eclipselink.connection-pool.default.initial" value="15"/>
+			<property name="eclipselink.connection-pool.default.min" value="6"/>
+			<property name="eclipselink.connection-pool.default.max" value="10"/>
+			
+
+		<property name="eclipselink.dialect" value="org.eclipse.persistence.platform.database.MySQLPlatform"/>
+        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/newdemo"/>
+        <property name="javax.persistence.jdbc.user" value="newdemo"/>
+        <property name="javax.persistence.jdbc.password" value="newdemo"/>
+        <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+	<class>newdemo.app.shared.location.Timezone</class>
+    <class>newdemo.app.shared.location.Language</class>
+    <class>newdemo.app.shared.location.Country</class>
+    <class>newdemo.app.shared.location.Currency</class>
+    <class>newdemo.app.shared.location.State</class>
+    <class>newdemo.app.shared.location.Region</class>
+    <class>newdemo.app.shared.location.District</class>
+    <class>newdemo.app.shared.location.City</class>
+    <class>newdemo.app.shared.location.Taluka</class>
+    <class>newdemo.app.shared.location.Village</class>
+    <class>newdemo.app.shared.location.AddressType</class>
+    <class>newdemo.app.shared.location.Address</class>
+    <class>newdemo.app.shared.location.AddressExtended</class>
+    <class>newdemo.app.shared.contacts.ContactType</class>
+    <class>newdemo.app.shared.contacts.CommunicationGroup</class>
+    <class>newdemo.app.shared.contacts.CommunicationType</class>
+    <class>newdemo.app.shared.contacts.Gender</class>
+    <class>newdemo.app.shared.contacts.Title</class>
+    <class>newdemo.app.shared.contacts.CoreContacts</class>
+    <class>newdemo.app.shared.contacts.CommunicationData</class>
+    <class>newdemo.app.shared.authentication.PasswordAlgo</class>
+    <class>newdemo.app.shared.authentication.PasswordPolicy</class>
+    <class>newdemo.app.shared.authentication.Question</class>
+    <class>newdemo.app.shared.authentication.UserAccessLevel</class>
+    <class>newdemo.app.shared.authentication.UserAccessDomain</class>
+    <class>newdemo.app.shared.authentication.User</class>
+    <class>newdemo.app.shared.authentication.Login</class>
+    <class>newdemo.app.shared.authentication.LoginSession</class>
+    <class>newdemo.app.shared.authentication.PassRecovery</class>
+    <class>newdemo.app.shared.authentication.UserData</class>
+    <class>newdemo.app.shared.authorization.Roles</class>
+    <class>newdemo.app.shared.authorization.AppMenus</class>
+    <class>newdemo.app.shared.authorization.RoleMenuBridge</class>
+    <class>newdemo.app.shared.authorization.UserRoleBridge</class>
+    <class>newdemo.app.shared.customers.AppCustomerType</class>
+    <class>newdemo.app.shared.customers.AppCustomerCategory</class>
+    <class>newdemo.app.shared.customers.AppCustomer</class>
+    </persistence-unit>
+
+</persistence>

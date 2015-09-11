@@ -1,0 +1,8 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-09-11 11:10:29
+ development mode --enabled true 
+project --topLevelPackage newdemo --projectName newdemoScheduler
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-09-11 11:10:33
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-09-11 11:10:33
+// script --file newdemoScheduler.cf
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-09-11 11:10:33
